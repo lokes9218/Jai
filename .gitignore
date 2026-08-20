@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Generated vector indexes can be rebuilt from data/chunks.json.
+vectorstore/*.index
+vectorstore/*.npy
